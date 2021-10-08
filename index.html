@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="wrapper-form">
+    <div class="title">
+      Survey Form
+    </div>
+    <form action="#" onsubmit="return validation()" autocomplete="off">
+      <table>
+    <tr><td>UserName:<br><input type="text" id="user" placeholder="Enter your name here" style="width: 500px; height: 30px;"><br><span id="userr"></span></td></tr>
+    <tr><td>Email id:<br><input type="text" id="email" placeholder="Enter your Email id here" style="width: 500px; height: 30px;"><br><span id="emaill"></span></td></tr>
+    <tr><td>Mobile No:<br><input type="text" id="mobile" placeholder="Enter your Mobile No. here" style="width: 500px; height: 30px;"><br><span id="mobilee" ></span></td></tr>
+    <tr><td><input type="submit" id="" placeholder="" class="btn"></td></tr>
+  </table></form>
+    
+          <label class="co">1. Will you recommend this college to others?</label><br>
+          <div class="btn-group">
+           
+                <button onclick="">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>10</button>
+         
+          </div><br><br><br>
+          <label class="co">2. Are you satisfied with the teaching staff and their teaching methods?</label><br><br>
+          <input type="radio" name="foo"><label>1.Extremely satisfied</label><br>
+          <input type="radio" name="foo"><label>2.Very satisfied</label><br>
+          <input type="radio" name="foo"><label>3.Satisfied</label><br>
+          <input type="radio" name="foo"><label>4.neutral</label><br>
+          <input type="radio" name="foo"><label>5.Dissatisfied</label><br>
+          <input type="radio" name="foo"><label>6.Very dissatisfied</label><br>
+          <input type="radio" name="foo"><label>7.Extremely dissatisfied</label><br><br>
+          <label class="co">3. How satisfied are you with the facilities provided by the college?</label><br><br>
+          <input type="radio" name="fo"><label>1.Extremely satisfied</label><br>
+          <input type="radio" name="fo"><label>2.Very satisfied</label><br>
+          <input type="radio" name="fo"><label>3.Satisfied</label><br>
+          <input type="radio" name="fo"><label>4.neutral</label><br>
+          <input type="radio" name="fo"><label>5.Dissatisfied</label><br>
+          <input type="radio" name="fo"><label>6.Very dissatisfied</label><br>
+          <input type="radio" name="fo"><label>7.Extremely dissatisfied</label><br><br>
+          <label class="co">4. Was it easy to obtain the necessary resources from the college library?</label><br><br>
+          <input type="radio" name="f"><label>1.Yes</label><br>
+          <input type="radio" name="f"><label>2.No</label><br><br>
+          <label class="co">5. Is it easy to obtain the necessary resources from the college library?</label><br><br>
+          <input type="radio" name="o"><label>1.Yes</label><br>
+          <input type="radio" name="o"><label>2.No</label><br><br>
+          <label class="co">6. Do you feel it is easier to register for different courses within the college?</label><br><br>
+          <input type="radio" name="fooo"><label>1.Extremely satisfied</label><br>
+          <input type="radio" name="fooo"><label>2.Very satisfied</label><br>
+          <input type="radio" name="fooo"><label>3.Satisfied</label><br>
+          <input type="radio" name="fooo"><label>3.neutral</label><br>
+          <input type="radio" name="fooo"><label>4.Dissatisfied</label><br>
+          <input type="radio" name="fooo"><label>5.Very dissatisfied</label><br>
+          <input type="radio" name="fooo"><label>6.Very dissatisfied</label><br>
+          <input type="radio" name="fooo"><label>7.Extremely dissatisfied</label><br><br>
+          <label class="co">7. How satisfied are you with the cleanliness and variety of food items available in the cafeteria?</label><br><br>
+          <input type="radio" name="n"><label>1.Extremely satisfied</label><br>
+          <input type="radio" name="n"><label>2.Very satisfied</label><br>
+          <input type="radio" name="n"><label>3.Satisfied</label><br>
+          <input type="radio" name="n"><label>4.neutral</label><br>
+          <input type="radio" name="n"><label>5.Dissatisfied</label><br>
+          <input type="radio" name="n"><label>6.Very dissatisfied</label><br>
+          <input type="radio" name="n"><label>7.Very dissatisfied</label><br>
+          <input type="radio" name="n"><label>8.Extremely dissatisfied</label><br><br>
+          <label class="co">8. How supportive were the faculty members?</label><br><br>
+          <input type="radio" name="m"><label>1.Extremely supportive</label><br>
+          <input type="radio" name="m"><label>2.Very supportive</label><br>
+          <input type="radio" name="m"><label>3.Supportive</label><br>
+          <input type="radio" name="m"><label>4.Neutral</label><br>
+          <input type="radio" name="m"><label>5.Unsupportive</label><br>
+          <input type="radio" name="m"><label>6.Very Unsupportive</label><br>
+          <input type="radio" name="m"><label>7.Extremely Unsupportive</label><br><br>
+          <label class="co">9. What do you think of the hostel?</label><br><br>
+          <input type="radio" name="p"><label>1.Extremely crowded</label><br>
+          <input type="radio" name="p"><label>2.Very crowded</label><br>
+          <input type="radio" name="p"><label>3.Somewhat crowded</label><br>
+          <input type="radio" name="p"><label>4.Not so crowded</label><br>
+          <input type="radio" name="p"><label>5.Unsupportive</label><br>
+          <input type="radio" name="p"><label>6.Not at all crowded</label><br><br>
+          <label class="co">10. Are you satisfied with the teaching staff and their teaching practices?</label><br><br>
+          <input type="radio" name="h"><label>1.Yes</label><br>
+          <input type="radio" name="h"><label>2.No</label><br><br>
+          <label class="co">11. Do you think faculty and support staff at the college were helpful?</label><br><br>
+          <input type="radio" name="l"><label>1.Very Helpful</label><br>
+          <input type="radio" name="l"><label>2.Helpful</label><br>
+          <input type="radio" name="l"><label>3.Neither helpful nor unhelpful</label><br>
+          <input type="radio" name="l"><label>4.Unhelpful</label><br>
+          <input type="radio" name="l"><label>5.Very unhelpful</label><br><br>
+          <label class="co">12. How likely are you to continue attending this college next year?</label><br><br>
+          <input type="radio" name="l"><label>1.Extremely likely</label><br>
+          <input type="radio" name="l"><label>2.Very likely</label><br>
+          <input type="radio" name="l"><label>3.Somewhat likely</label><br>
+          <input type="radio" name="l"><label>4.Not so likely</label><br>
+          <input type="radio" name="l"><label>5.Not at all likely</label><br><br>
+          <label class="co">13. How satisfied are you with the accommodation?</label><br><br>
+          <input type="radio" name="n"><label>1.Extremely satisfied</label><br>
+          <input type="radio" name="n"><label>2.Very satisfied</label><br>
+          <input type="radio" name="n"><label>3.Satisfied</label><br>
+          <input type="radio" name="n"><label>4.neutral</label><br>
+          <input type="radio" name="n"><label>5.Dissatisfied</label><br>
+          <input type="radio" name="n"><label>6.Very dissatisfied</label><br>
+          <input type="radio" name="n"><label>7.Extremely dissatisfied</label><br><br>
+          <label class="co">14. Given a chance, are you willing to pursue another course at the college?</label><br><br>
+          <input type="radio" name="n"><label>1.Definitely, Yes</label><br>
+          <input type="radio" name="n"><label>2.Probably, Yes</label><br>
+          <input type="radio" name="n"><label>3.Probably, No</label><br>
+          <input type="radio" name="n"><label>4.Definitely, No</label><br>
+          <input type="radio" name="n"><label>5.Can’t say</label><br><br>
+          <label class="co">15. Do you think your siblings or friends will be benefited by studying at this college?</label><br><br>
+          <input type="radio" name="n"><label>1.Definitely, Yes</label><br>
+          <input type="radio" name="n"><label>2.Probably, Yes</label><br>
+          <input type="radio" name="n"><label>3.Probably, No</label><br>
+          <input type="radio" name="n"><label>4.Definitely, No</label><br>
+          <input type="radio" name="n"><label>5.Can’t say</label><br><br>
+          <label class="co">16. How many hours a week do you work your part-time job?</label><br><br>
+          <input type="radio" name="n"><label>1.I don’t have a job</label><br>
+          <input type="radio" name="n"><label>2.1-10 hours a week</label><br>
+          <input type="radio" name="n"><label>3.11-15 hours a week</label><br>
+          <input type="radio" name="n"><label>4.16-20 hours a week</label><br>
+          <input type="radio" name="n"><label>5.More than 20 hours a week</label><br><br>
+          <label class="co">17. How about your overall experience with this college?</label><br><br>
+          <input type="radio" name="n"><label>1.I don’t have a job</label><br>
+          <input type="radio" name="n"><label>2.No, I manage them both well</label><br>
+          <input type="radio" name="n"><label>3.Yes, but rarely</label><br>
+          <input type="radio" name="n"><label>4.Yes, often</label><br>
+          <input type="radio" name="n"><label>5.Yes, always</label><br><br>
+          <label class="co">18. What do you think about extracurricular activities?</label><br><br>
+          <input type="radio" name="n"><label>1.They are too few</label><br>
+          <input type="radio" name="n"><label>2.They are just right</label><br>
+          <input type="radio" name="n"><label>3.I was overwhelmed with the number</label><br><br>
+          <label class="co">19. Do you think that the college takes enough measures to curb racial and ethnic bias?</label><br><br>
+          <input type="radio" name="n"><label>1.Definitely, Yes</label><br>
+          <input type="radio" name="n"><label>2.Probably, Yes</label><br>
+          <input type="radio" name="n"><label>3.Probably, No</label><br>
+          <input type="radio" name="n"><label>4.Definitely, No</label><br>
+          <input type="radio" name="n"><label>5.Can’t say</label><br><br>
+          <label class="co">20. Please provide us with additional feedback on areas that need improvement!!</label><br><br>
+          <!-- <input type="text" style="width: 500px; height: 100px;"><br><br>
+          <input type="submit" id="" placeholder="" class="btn"> -->
+          <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+</div>	
+<script src="index.js"></script>
+</body>
+</html>
